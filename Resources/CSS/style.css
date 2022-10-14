@@ -346,6 +346,10 @@ main{
 
 /* CONTACT PAGE */
 
+.c-main{
+  height: 100vh;
+}
+
 .contact-text{
   text-align: center;
   padding: 3rem 0;
