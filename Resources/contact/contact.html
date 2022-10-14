@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/navbar.css">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <title>Contact</title>
+</head>
+<body>
+  <header>
+    <div id="brand"><a href="/">Daniel</a></div>
+    <nav>
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../index.html">Services</a></li>
+        <li><a href="../../index.html">Projects</a></li>
+        <li><a href="./contact.html">Contact me</a></li>
+      </ul>
+    </nav>
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile-menu">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../index.html">Services</a></li>
+        <li><a href="../../index.html">Projects</a></li>
+        <li><a href="./contact.html">Contact me</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact">
+      <div class="contact-text">
+        <h1>Have a job for me?</h1>
+        <p>Contact Me</p>
+      </div>
+
+      <form action="../../index.html" class="contact-form">
+        <div>
+          <input type="text" placeholder="Full Name">
+        </div>
+        <div>
+          <input type="email" placeholder="Email">
+        </div>
+        <div>
+          <input type="tel" placeholder="Phone Number">
+        </div>
+        <div>
+          <textarea name="" id="" cols="20" rows="5" placeholder="Details"></textarea>
+        </div>
+
+        <div class="btn-section">
+          <button type="submit" class="btn">Send Message</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div id="brand"><a href="./index.html">Daniel</a></div>
+    <div class="socials-section">
+      <a href="https://github.com/DanielUdechukwu" target="_blank">
+        <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M128 0C57.28 0 0 57.28 0 128C0 184.64 36.64 232.48 87.52 249.44C93.92 250.56 96.32 246.72 96.32 243.36C96.32 240.32 96.16 230.24 96.16 219.52C64 225.44 55.68 211.68 53.12 204.48C51.68 200.8 45.44 189.44 40 186.4C35.52 184 29.12 178.08 39.84 177.92C49.92 177.76 57.12 187.2 59.52 191.04C71.04 210.4 89.44 204.96 96.8 201.6C97.92 193.28 101.28 187.68 104.96 184.48C76.48 181.28 46.72 170.24 46.72 121.28C46.72 107.36 51.68 95.84 59.84 86.88C58.56 83.68 54.08 70.56 61.12 52.96C61.12 52.96 71.84 49.6 96.32 66.08C106.56 63.2 117.44 61.76 128.32 61.76C139.2 61.76 150.08 63.2 160.32 66.08C184.8 49.44 195.52 52.96 195.52 52.96C202.56 70.56 198.08 83.68 196.8 86.88C204.96 95.84 209.92 107.2 209.92 121.28C209.92 170.4 180 181.28 151.52 184.48C156.16 188.48 160.16 196.16 160.16 208.16C160.16 225.28 160 239.04 160 243.36C160 246.72 162.4 250.72 168.8 249.44C194.21 240.862 216.291 224.531 231.933 202.746C247.576 180.961 255.993 154.819 256 128C256 57.28 198.72 0 128 0Z" fill="black"/>
+        </svg>
+      </a>
+
+      <a href="https://twitter.com/ChumaUdechukwu" target="_blank">
+        <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M80.4162 240C177.018 240 229.878 159.953 229.878 90.6535C229.878 88.4016 229.878 86.1496 229.775 83.8976C240.019 76.5276 248.932 67.2126 256 56.6693C246.575 60.8661 236.434 63.6299 225.78 64.9606C236.639 58.5118 244.936 48.1732 248.932 35.8898C238.79 41.9291 227.521 46.2283 215.536 48.5827C205.906 38.3465 192.282 32 177.223 32C148.232 32 124.671 55.5433 124.671 84.5118C124.671 88.6063 125.183 92.5984 126.002 96.4882C82.3626 94.3386 43.6399 73.3543 17.7223 41.622C13.2149 49.4016 10.6539 58.4095 10.6539 68.0315C10.6539 86.252 19.976 102.323 34.0104 111.74C25.4054 111.433 17.3125 109.079 10.2441 105.189C10.2441 105.394 10.2441 105.598 10.2441 105.906C10.2441 131.291 28.3761 152.583 52.3473 157.394C47.9424 158.622 43.3325 159.236 38.5178 159.236C35.1373 159.236 31.8591 158.929 28.6835 158.315C35.3421 179.197 54.8059 194.346 77.7527 194.756C59.7231 208.882 37.0836 217.276 12.4978 217.276C8.29772 217.276 4.09764 217.071 0 216.559C23.1517 231.299 50.8107 240 80.4162 240Z" fill="black"/>
+        </svg>
+      </a>
+
+      <a href="https://www.linkedin.com/in/udechukwudc/" target="_blank">
+        <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 18.3382C0 8.21301 8.4162 0 18.7986 0H237.201C247.583 0 256 8.21304 256 18.3382V237.662C256 247.79 247.583 256 237.201 256L18.7986 256C8.4162 256 0 247.79 0 237.662V18.3382ZM79.0941 214.298V98.7002H40.6713V214.298H79.0941ZM59.8825 82.9172C73.2813 82.9172 81.6209 74.0405 81.6209 62.9473C81.3712 51.6043 73.2813 42.9739 60.1367 42.9739C46.9935 42.9739 38.4 51.6043 38.4 62.9473C38.4 74.0405 46.7379 82.9172 59.6321 82.9172H59.8825ZM138.422 214.298V149.743C138.422 146.289 138.672 142.837 139.687 140.367C142.464 133.465 148.786 126.315 159.401 126.315C173.304 126.315 178.866 136.916 178.866 152.456V214.298H217.285V148.016C217.285 112.509 198.329 95.9876 173.05 95.9876C152.668 95.9876 143.53 107.19 138.423 115.067V115.465H138.167C138.251 115.333 138.337 115.2 138.423 115.067V98.7002H100.001C100.505 109.547 100.001 214.298 100.001 214.298H138.422Z" fill="black"/>
+        </svg>
+      </a>
+        
+    </div>
+  </footer>
+
+  <script src="../JS/index.js"></script>
+</body>
+</html>
